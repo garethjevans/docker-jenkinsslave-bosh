@@ -1,4 +1,4 @@
-FROM garethjevans/jenkinsslave-golang:v1.1
+FROM garethjevans/jenkinsslave-alpine:v2.0-pre2
 
 ENV BOSH_VERSION 2.0.28
 ENV BOSH_GEN_VERSION 0.24.0
